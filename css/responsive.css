@@ -1,0 +1,453 @@
+                @media (min-width:320px) and (max-width:480px) {
+                    /* header  start*/
+                    .header .navbar-toggler {
+                        border: 3px solid #008ed6;
+                        border-radius: 5px;
+                    }
+                    .header .navbar-toggler:focus {
+                        text-decoration: none;
+                        outline: 0;
+                        box-shadow: 0 0 2px #008ed6;
+                        background: #008ed6;
+                    }
+                    .header .navbar-toggler:focus .fa {
+                        color: #fff;
+                    }
+                    .header .navbar-toggler .fa {
+                        color: #008ed6;
+                        font-size: 35px;
+                        font-weight: 500;
+                    }
+                    /* menu  */
+                    .header .navbar-expand-lg .navbar-nav .nav-link {
+                        margin: 0;
+                    }
+                    .header .navbar-expand-lg .navbar-nav .nav-link:hover {
+                        background: url("../image/line.png") left bottom no-repeat;
+                        background-size: auto;
+                    }
+                    .header .navbar-nav .nav-link.active {
+                        background: url("../image/line.png") left bottom no-repeat;
+                        background-size: auto;
+                    }
+                    /* header end */
+                    /* banner start */
+                    .inner-banner h1 {
+                        font-size: 26px;
+                        margin: 20px 0px;
+                    }
+                    .inner-banner p {
+                        width: 100%;
+                        font-size: 12px;
+                    }
+                    .double-btn .btn-info {
+                        font-size: 11px;
+                    }
+                    .double-btn .btn-primary {
+                        font-size: 11px;
+                    }
+                    /* banner end */
+                    /* feature start */
+                    .featur .tittle h1 {
+                        font-size: 26px;
+                        margin: 0;
+                    }
+                    .inner-feature h4 {
+                        font-size: 22px;
+                    }
+                    .inner-feature p {
+                        font-size: 12px;
+                    }
+                    /* feature end */
+                    /* about_long start */
+                    .about-long .tittle h1 {
+                        font-size: 26px;
+                    }
+                    .about-long-inner p {
+                        font-size: 12px;
+                    }
+                    /* about_long end */
+                    /* about-short start */
+                    .about-short .tittle h1 {
+                        font-size: 26px;
+                        margin: 0;
+                    }
+                    .about-short .liner-img {
+                        width: 15%;
+                    }
+                    .about-short-inner p {
+                        font-size: 12px;
+                    }
+                    .about-short img {
+                        width: 100%;
+                    }
+                    /* about-short end */
+                    /* testimonials start */
+                    .testimonial .tittle h5 {
+                        font-size: 15px;
+                    }
+                    .testimonial .tittle h1 {
+                        font-size: 30px;
+                        margin: 0;
+                    }
+                    .testimonial .owl-carousel .item h4 {
+                        font-size: 12px;
+                    }
+                    /* testimonials end */
+                    /* eye-cature start */
+                    .eye-catcher h1 {
+                        font-size: 26px;
+                    }
+                    /* eye-cature end */
+                    /* pricing start */
+                    .pricngs .tittle h5 {
+                        font-size: 16px;
+                    }
+                    .pricngs .tittle h1 {
+                        font-size: 26px;
+                    }
+                    .price-box .price-head h3 {
+                        font-size: 18px;
+                    }
+                    .price-box .main-price h1 {
+                        font-size: 60px;
+                    }
+                    .price-box .price-content p {
+                        font-size: 11px;
+                    }
+                    .price-box .price-content .btn-primary {
+                        font-size: 11px;
+                    }
+                    /* pricing end */
+                    /* contact start */
+                    .contact .tittle h5 {
+                        font-size: 16px;
+                    }
+                    .contact .tittle h1 {
+                        font-size: 26px;
+                        margin: 0;
+                    }
+                    .contact .contanct-form {
+                        margin: 0px 0px -70px 0px;
+                    }
+                    .contact .contanct-form .form-controlar {
+                        font-size: 12px;
+                    }
+                    .contact .contanct-form .btn-primary {
+                        font-size: 12px;
+                    }
+                    /* contact end */
+                    /* footer start */
+                    .footer .icons .fa {
+                        font-size: 12;
+                        margin: 0px 10px 10px;
+                    }
+                    .footer p {
+                        font-size: 12px;
+                    }
+                    /* footer end */
+                }
+                
+                @media (min-width:481px) and (max-width:767px) {
+                    /* header  start*/
+                    .header .navbar-toggler {
+                        border: 4px solid #008ed6;
+                        border-radius: 5px;
+                    }
+                    .header .navbar-toggler:focus {
+                        text-decoration: none;
+                        outline: 0;
+                        box-shadow: 0 0 2px #008ed6;
+                        background: #008ed6;
+                    }
+                    .header .navbar-toggler:focus .fa {
+                        color: #fff;
+                    }
+                    .header .navbar-toggler .fa {
+                        color: #008ed6;
+                        font-size: 38px;
+                        font-weight: 500;
+                    }
+                    /* menu  */
+                    .header .navbar-expand-lg .navbar-nav .nav-link {
+                        margin: 0;
+                    }
+                    .header .navbar-expand-lg .navbar-nav .nav-link:hover {
+                        background: url("../image/line.png") left bottom no-repeat;
+                        background-size: auto;
+                    }
+                    .header .navbar-nav .nav-link.active {
+                        background: url("../image/line.png") left bottom no-repeat;
+                        background-size: auto;
+                    }
+                    /* header end */
+                    /* banner start */
+                    .inner-banner h1 {
+                        font-size: 34px;
+                        margin: 25px 0px;
+                    }
+                    .inner-banner p {
+                        width: 100%;
+                        font-size: 14px;
+                    }
+                    .double-btn .btn-info {
+                        font-size: 12px;
+                    }
+                    .double-btn .btn-primary {
+                        font-size: 12px;
+                    }
+                    /* banner end */
+                    /* feature start */
+                    .featur .tittle h1 {
+                        font-size: 34px;
+                        margin: 0;
+                    }
+                    .inner-feature h4 {
+                        font-size: 24px;
+                    }
+                    .inner-feature p {
+                        font-size: 14px;
+                    }
+                    /* feature end */
+                    /* about_long start */
+                    .about-long .tittle h1 {
+                        font-size: 34px;
+                    }
+                    .about-long-inner p {
+                        font-size: 14px;
+                    }
+                    /* about_long end */
+                    /* about-short start */
+                    .about-short .tittle h1 {
+                        font-size: 34px;
+                        margin: 0;
+                    }
+                    .about-short .liner-img {
+                        width: 20%;
+                    }
+                    .about-short-inner p {
+                        font-size: 14px;
+                    }
+                    .about-short img {
+                        width: 100%;
+                    }
+                    /* about-short end */
+                    /* testimonials start */
+                    .testimonial .tittle h5 {
+                        font-size: 16px;
+                    }
+                    .testimonial .tittle h1 {
+                        font-size: 35px;
+                        margin: 0;
+                    }
+                    .testimonial .owl-carousel .item h4 {
+                        font-size: 14px;
+                    }
+                    /* testimonials end */
+                    /* eye-cature start */
+                    .eye-catcher h1 {
+                        font-size: 34px;
+                    }
+                    /* eye-cature end */
+                    /* pricing start */
+                    .pricngs .tittle h5 {
+                        font-size: 17px;
+                    }
+                    .pricngs .tittle h1 {
+                        font-size: 34px;
+                    }
+                    .price-box .price-head h3 {
+                        font-size: 20px;
+                    }
+                    .price-box .main-price h1 {
+                        font-size: 68px;
+                    }
+                    .price-box .price-content p {
+                        font-size: 13px;
+                    }
+                    .price-box .price-content .btn-primary {
+                        font-size: 12px;
+                    }
+                    /* pricing end */
+                    /* contact start */
+                    .contact .tittle h5 {
+                        font-size: 18px;
+                    }
+                    .contact .tittle h1 {
+                        font-size: 34px;
+                        margin: 0;
+                    }
+                    .contact .contanct-form {
+                        margin: 0px 0px -70px 0px;
+                    }
+                    .contact .contanct-form .form-controlar {
+                        font-size: 14px;
+                    }
+                    .contact .contanct-form .btn-primary {
+                        font-size: 13px;
+                    }
+                    /* contact end */
+                    /* footer start */
+                    .footer .icons .fa {
+                        font-size: 14;
+                        margin: 0px 10px 10px;
+                    }
+                    .footer p {
+                        font-size: 14px;
+                    }
+                    /* footer end */
+                }
+                
+                @media (min-width:768px) and (max-width:1024px) {
+                    /* header  start*/
+                    .header .navbar-toggler {
+                        border: 4px solid #008ed6;
+                        border-radius: 5px;
+                    }
+                    .header .navbar-toggler:focus {
+                        text-decoration: none;
+                        outline: 0;
+                        box-shadow: 0 0 2px #008ed6;
+                        background: #008ed6;
+                    }
+                    .header .navbar-toggler:focus .fa {
+                        color: #fff;
+                    }
+                    .header .navbar-toggler .fa {
+                        color: #008ed6;
+                        font-size: 35px;
+                        font-weight: 500;
+                    }
+                    /* menu  */
+                    .header .navbar-expand-lg .navbar-nav .nav-link {
+                        margin: 0;
+                    }
+                    .header .navbar-expand-lg .navbar-nav .nav-link:hover {
+                        background: url("../image/line.png") left bottom no-repeat;
+                        background-size: auto;
+                    }
+                    .header .navbar-nav .nav-link.active {
+                        background: url("../image/line.png") left bottom no-repeat;
+                        background-size: auto;
+                    }
+                    /* header end */
+                    /* banner start */
+                    .inner-banner h1 {
+                        font-size: 40px;
+                        margin: 25px 0px;
+                    }
+                    .inner-banner p {
+                        width: 100%;
+                        font-size: 15px;
+                    }
+                    .double-btn .btn-info {
+                        font-size: 13px;
+                    }
+                    .double-btn .btn-primary {
+                        font-size: 13px;
+                    }
+                    /* banner end */
+                    /* feature start */
+                    .featur .tittle h1 {
+                        font-size: 40px;
+                        margin: 0;
+                    }
+                    .inner-feature h4 {
+                        font-size: 24px;
+                    }
+                    .inner-feature p {
+                        font-size: 15px;
+                    }
+                    /* feature end */
+                    /* about_long start */
+                    .about-long .tittle h1 {
+                        font-size: 40px;
+                    }
+                    .about-long-inner p {
+                        font-size: 15px;
+                    }
+                    /* about_long end */
+                    /* about-short start */
+                    .about-short .tittle h1 {
+                        font-size: 40px;
+                        margin: 0;
+                    }
+                    .about-short .liner-img {
+                        width: 15%;
+                    }
+                    .about-short-inner p {
+                        font-size: 15px;
+                    }
+                    .about-short img {
+                        width: 100%;
+                    }
+                    /* about-short end */
+                    /* testimonials start */
+                    .testimonial .tittle h5 {
+                        font-size: 17px;
+                    }
+                    .testimonial .tittle h1 {
+                        font-size: 40px;
+                        margin: 0;
+                    }
+                    .testimonial .owl-carousel .item h4 {
+                        font-size: 15px;
+                    }
+                    /* testimonials end */
+                    /* eye-cature start */
+                    .eye-catcher h1 {
+                        font-size: 40px;
+                    }
+                    .eye-catcher .double-btn .btn-info {
+                        margin: 20px 15px 0px 0px;
+                    }
+                    /* eye-cature end */
+                    /* pricing start */
+                    .pricngs .tittle h5 {
+                        font-size: 18px;
+                    }
+                    .pricngs .tittle h1 {
+                        font-size: 40px;
+                    }
+                    .price-box .price-head h3 {
+                        font-size: 20px;
+                    }
+                    .price-box .main-price h1 {
+                        font-size: 75px;
+                    }
+                    .price-box .price-content p {
+                        font-size: 14px;
+                    }
+                    .price-box .price-content .btn-primary {
+                        font-size: 14px;
+                    }
+                    /* pricing end */
+                    /* contact start */
+                    .contact .tittle h5 {
+                        font-size: 18px;
+                    }
+                    .contact .tittle h1 {
+                        font-size: 40px;
+                        margin: 0;
+                    }
+                    .contact .contanct-form {
+                        margin: 0px 30px -70px 0px;
+                    }
+                    .contact .contanct-form .form-controlar {
+                        font-size: 15px;
+                    }
+                    .contact .contanct-form .btn-primary {
+                        font-size: 14px;
+                        margin: 0px 20px 0px 0px;
+                    }
+                    /* contact end */
+                    /* footer start */
+                    .footer .icons .fa {
+                        font-size: 17;
+                        margin: 0px 20px 20px;
+                    }
+                    .footer p {
+                        font-size: 15px;
+                    }
+                    /* footer end */
+                }

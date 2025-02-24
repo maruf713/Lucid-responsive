@@ -1,0 +1,655 @@
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        
+        body {
+            font-family: "Source Sans 3", sans-serif;
+            font-size: 14px;
+            line-height: 1.7em;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Source Sans 3", sans-serif;
+        }
+        
+        a {
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: none;
+        }
+        /* global css for heading and sub heading start */
+        
+        .tittle {
+            width: 100%;
+        }
+        
+        .tittle h5 {
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1.3em;
+            color: #008ed6
+        }
+        
+        .tittle h1 {
+            color: #1a1a1a;
+            font-size: 45px;
+            line-height: 1.3em;
+            font-weight: 600;
+            margin: 10px 0px 20px;
+        }
+        
+        .tittle img {}
+        /* global css for heading and sub heading end */
+        /* menu css code start */
+        
+        .header {
+            width: 100%;
+            background: url("../image/banner1.png") center no-repeat;
+            background-size: cover;
+        }
+        
+        .header .navbar-expand-lg .navbar-nav .nav-link {
+            font-size: 16px;
+            color: #fff;
+            font-weight: 600;
+            margin: 10px 0 0 20px;
+        }
+        
+        .header .navbar-expand-lg .navbar-nav .nav-link:hover {
+            background: url("../image/line.png") center bottom no-repeat;
+            background-size: auto;
+        }
+        
+        .header .navbar-expand-lg .navbar-nav .nav-link:focus {
+            background: url("../image/line.png") center bottom no-repeat;
+            background-size: auto;
+        }
+        
+        .header .navbar-nav .nav-link.active {
+            background: url("../image/line.png") center bottom no-repeat;
+            background-size: auto;
+        }
+        /* menu css end */
+        /* banner css code start */
+        
+        .banner {
+            width: 100%;
+        }
+        
+        .inner-banner {
+            width: 100%;
+            padding: 80px 0;
+        }
+        
+        .inner-banner h5 {
+            font-size: 18px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            line-height: 1.3em;
+            color: #008ed6;
+        }
+        
+        .inner-banner h1 {
+            color: #fff;
+            font-size: 48px;
+            line-height: 1.3em;
+            font-weight: 600;
+            margin: 20px 0px;
+        }
+        
+        .inner-banner p {
+            width: 103%;
+            color: #767677;
+            font-size: 18px;
+            line-height: 1.7em;
+            font-weight: 600;
+            margin: 0px 0px;
+        }
+        
+        .double-btn {
+            width: 100%;
+            padding: 40px 0px 0px;
+        }
+        
+        .double-btn .btn-info {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #fff;
+            background: #008ed6;
+            border: 1px solid #008ed6;
+            transition: 1s ease-in;
+        }
+        
+        .double-btn .btn-info:hover,
+        .double-btn .btn-info:focus {
+            color: #008ed6;
+            background: transparent;
+            border: 1px solid #008ed6;
+        }
+        
+        .double-btn .btn-primary {
+            display: inline-block;
+            padding: 15px 30px;
+            margin: 0px 0px 0px 20px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #fff;
+            background: transparent;
+            border: 1px solid #767677;
+            transition: 1s ease-in;
+        }
+        
+        .double-btn .btn-primary:hover,
+        .double-btn .btn-primary:focus {
+            color: #fff;
+            background: #008ed6;
+            border: 1px solid #008ed6;
+        }
+        /* banner css code end */
+        /* featur section css start */
+        
+        .featur {
+            width: 100%;
+            padding: 80px 0px;
+        }
+        
+        .featur .tittle {
+            text-align: center;
+            margin: 0px 0px 80px 0px;
+        }
+        
+        .inner-feature {
+            width: 100%;
+            padding: 25px;
+            text-align: center;
+        }
+        
+        .inner-feature .icons {
+            width: 90px;
+            height: 90px;
+            line-height: 100px;
+            margin: 0px auto 25px;
+            border-radius: 100%;
+            border: 1px solid #e1e1e1;
+        }
+        
+        .inner-feature .icons .fa {
+            color: #008ed6;
+            font-size: 25px;
+        }
+        
+        .inner-feature .icons .fa-mobile {
+            color: #008ed6;
+            font-size: 40px;
+        }
+        
+        .inner-feature .icons .fa-thumbs-o-up {
+            color: #008ed6;
+            font-size: 35px;
+        }
+        
+        .inner-feature .icons .fa-cog {
+            color: #008ed6;
+            font-size: 35px;
+        }
+        
+        .inner-feature h4 {
+            font-size: 26px;
+            font-weight: 600;
+            letter-spacing: 1px;
+            line-height: 1.2em;
+            color: #1a1a1a;
+        }
+        
+        .inner-feature p {
+            color: #b4b4b4;
+            font-size: 14px;
+            line-height: 1.7em;
+            font-weight: 400;
+            margin: 0px 0px;
+        }
+        /* featur section css end */
+        /* about-long section css code start */
+        
+        .about-long {
+            width: 100%;
+            padding: 80px 0px;
+            border-top: 1px solid #e5e5e5;
+        }
+        
+        .about-long-inner {
+            width: 100%;
+        }
+        
+        .about-long-inner .tittle {
+            margin: 50px 0px 20px;
+        }
+        
+        .about-long-inner p {
+            width: 82%;
+            color: #b4b4b4;
+            font-size: 16px;
+            line-height: 1.7em;
+            font-weight: 400;
+            margin: 0px 0px;
+        }
+        
+        .about-long-inner ul {
+            padding: 20px 0px 0px 0px;
+        }
+        
+        .about-long-inner ul li {
+            list-style: none;
+            list-style: none;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 1.7em;
+            margin: 0px 0px 8px;
+            color: #1a1a1a;
+        }
+        
+        .about-long-inner ul li img {
+            width: 16px;
+            width: 16px;
+            height: 18px;
+            margin: 0px 5px 0px 0px;
+        }
+        /* about-long section css code end */
+        /* about-short section css start */
+        
+        .about-short {
+            width: 100%;
+            padding: 50px 0px;
+            background: #eee;
+        }
+        
+        .about-short-inner {
+            width: 100%;
+        }
+        
+        .about-short-inner .tittle {
+            margin: 50px 0px 20px;
+        }
+        
+        .about-short .liner-img {
+            width: 100%;
+        }
+        
+        .about-short-inner p {
+            width: 82%;
+            color: #b4b4b4;
+            font-size: 16px;
+            line-height: 1.7em;
+            font-weight: 400;
+            margin: 0px 0px;
+        }
+        /* about-short section css end */
+        /* testimonial section css start */
+        
+        .testimonial {
+            width: 100%;
+            padding: 80px 0px;
+            background: url(../image/bg2.png) center top no-repeat;
+            background-size: cover;
+        }
+        
+        .testimonial .tittle {
+            text-align: center;
+            padding: 0px 0px 80px 0px;
+        }
+        
+        .testimonial .tittle h1 {
+            color: #fff;
+        }
+        
+        .testimonial .owl-carousel {
+            width: 100%;
+        }
+        
+        .testimonial .owl-carousel .item {}
+        
+        .testimonial .owl-carousel .item h4 {
+            color: #fff;
+            font-size: 22px;
+            font-style: italic;
+            line-height: 1.7em;
+            font-weight: 400;
+            margin: 0px 0px 20px;
+        }
+        
+        .testimonial .owl-carousel .item img {
+            width: 65px;
+            height: 65px;
+            border-radius: 100%;
+        }
+        
+        .testimonial .owl-carousel .item h6 {
+            color: #fff;
+            font-size: 14px;
+            line-height: 1.3em;
+            font-weight: 400;
+            margin: 15px 0px 5px;
+        }
+        
+        .testimonial .owl-carousel .item p {
+            color: #fff;
+            font-size: 14px;
+            text-transform: uppercase;
+            line-height: 1.3em;
+            font-weight: 400;
+        }
+        
+        .testimonial .owl-theme .owl-nav.disabled+.owl-dots {
+            margin-top: 40px;
+        }
+        
+        .testimonial .owl-theme .owl-dots .owl-dot span {
+            width: 8px;
+            height: 8px;
+            background: transparent;
+            border: 1px solid #777;
+        }
+        
+        .testimonial .owl-theme .owl-dots .owl-dot.active span,
+        .testimonial .owl-theme .owl-dots .owl-dot:hover span {
+            background: #fff !important;
+            width: 10px;
+            height: 10px;
+            margin: 0px 7px 4px;
+        }
+        /* testimonial section css end */
+        /* eye catcher section css start */
+        
+        .eye-catcher {
+            width: 100%;
+            padding: 40px 0px 60px 0px;
+            background: #15141a;
+            text-align: center;
+        }
+        
+        .eye-catcher h1 {
+            color: #fff;
+            font-size: 30px;
+            line-height: 1.3em;
+            font-weight: 600;
+            margin: 45px 0px 0px 0px;
+        }
+        
+        .eye-catcher h1 span {
+            font-weight: 300;
+        }
+        
+        .eye-catcher .double-btn {
+            width: 100%;
+            margin: 0px;
+            text-align: center;
+        }
+        
+        .eye-catcher .double-btn .btn-primary {
+            margin: 0px 20px 0px 0px;
+        }
+        /* eye catcher section css end */
+        /* pricngs section css start */
+        
+        .pricngs {
+            width: 100%;
+            padding: 80px 0px;
+        }
+        
+        .pricngs .tittle {
+            text-align: center;
+            padding: 0px 0px 80px;
+        }
+        
+        .price-box {
+            width: 100%;
+            padding: 0px;
+            border: 1px solid #eee;
+            text-align: center;
+        }
+        
+        .price-box .price-head {
+            width: 100%;
+            padding: 15px 0px;
+            border-bottom: 1px solid #eee;
+        }
+        
+        .price-box .price-head h3 {
+            color: #1a1a1a;
+            font-size: 24px;
+            line-height: 1.3em;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin: 0px 0px 0px;
+        }
+        
+        .price-box:hover .price-head h3 {
+            color: #008ed6;
+            transition: 1.5s;
+        }
+        
+        .price-box .main-price {
+            width: 100%;
+            padding: 30px 0px;
+            border-bottom: 1px solid #eee;
+            transition: 1.5s;
+        }
+        
+        .price-box:hover .main-price {
+            background: #008ed6;
+        }
+        
+        .price-box .main-price h1 {
+            color: #1a1a1a;
+            font-size: 70px;
+            line-height: 1.2em;
+            font-weight: 600;
+            margin: 0px 0px 0px 0px;
+        }
+        
+        .price-box:hover .main-price h1,
+        .price-box:hover .main-price p {
+            color: #fff;
+            transition: 1.5s;
+        }
+        
+        .price-box .main-price h1 sup {
+            font-size: 26px;
+            top: -25px;
+        }
+        
+        .price-box .main-price p {
+            color: #999999;
+            font-size: 16px;
+            line-height: 1.3em;
+            font-weight: 400;
+            margin: -10px 0px 0px 0px;
+        }
+        
+        .price-box .price-content {
+            width: 100%;
+            padding: 40px 25px 20px;
+        }
+        
+        .price-box .price-content p {
+            color: #999999;
+            font-size: 16px;
+            line-height: 1.7em;
+            font-weight: 400;
+            margin: 0px 10px 30px;
+        }
+        
+        .price-box .price-content p .blank-link {
+            text-decoration: none;
+            color: #008ed6;
+        }
+        
+        .price-box .price-content .btn-primary {
+            display: inline-block;
+            padding: 12px 25px;
+            margin: 0px 0px 0px 0px;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #008ed6;
+            background: transparent;
+            border: 1px solid #e0e0e0;
+            transition: 1s ease-in;
+        }
+        
+        .price-box:hover .price-content .btn-primary {
+            color: #fff;
+            background: #008ed6;
+            border: 1px solid #008ed6;
+            transition: 1.5s;
+        }
+        /* pricngs section css end */
+        /* contact section css start */
+        
+        .contact {
+            width: 100%;
+            padding: 80px 0px 0px;
+            background: #ededed;
+        }
+        
+        .contact .tittle {
+            text-align: center;
+            padding: 0px 0px 80px;
+        }
+        
+        .contact .info {
+            width: 100%;
+            text-align: center;
+        }
+        
+        .contact .info .fa {
+            font-size: 24px;
+            color: #008ed6;
+        }
+        
+        .contact .info p {
+            color: #999999;
+            font-size: 16px;
+            line-height: 1.4em;
+            font-weight: 400;
+            margin: 20px 0px 0px;
+        }
+        
+        .contact .contanct-form {
+            width: 100%;
+            padding: 70px 80px 50px;
+            margin: 80px 0px -70px 170px;
+            background: #1a1a1a;
+            z-index: 1;
+            position: relative;
+        }
+        
+        .contact .contanct-form textarea {
+            min-height: 171px;
+            margin-left: 8px;
+        }
+        
+        .contact .contanct-form .form-controlar {
+            padding: 10px;
+            border-radius: 3px;
+            border: 1px solid #444348;
+            background: transparent;
+            color: #444348;
+            font-size: 16px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+        
+        .contact .contanct-form .form-controlar:hover,
+        .contact .contanct-form .form-controlar:focus {
+            border: 1px solid #008ed6;
+            transition: 1.3s;
+        }
+        
+        .contact .contanct-form .text-right {
+            text-align: center;
+        }
+        
+        .contact .contanct-form .btn-primary {
+            display: inline-block;
+            padding: 15px 30px;
+            font-size: 16px;
+            font-weight: 600;
+            border-radius: 4px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: #fff;
+            background: #008ed6;
+            border: 1px solid #008ed6;
+            transition: 1s ease-in;
+            margin: 0px 40px 0px 0px;
+        }
+        
+        .contact .contanct-form .btn-primary:hover,
+        .contact .contanct-form .btn-primary:focus {
+            color: #008ed6;
+            background: transparent;
+            border: 1px solid #008ed6;
+        }
+        /* contact section css end */
+        /* map section css start */
+        
+        .map {
+            width: 100%;
+            z-index: 0;
+        }
+        /* map section css end */
+        /* footer section css start */
+        
+        .footer {
+            width: 100%;
+            padding: 40px 0px;
+            background: #15141a;
+        }
+        
+        .footer .icons {
+            width: 100%;
+            text-align: center;
+            padding-top: 16px;
+        }
+        
+        .footer .icons .fa {
+            font-size: 24px;
+            color: #444348;
+            margin: 0px 20px 20px;
+        }
+        
+        .footer .icons .fa:hover,
+        .footer .icons .fa:focus {
+            color: #008ed6;
+            transition: 1.2s;
+        }
+        
+        .footer p {
+            font-size: 18px;
+            color: #444348;
+            text-transform: uppercase;
+            margin-top: 10px;
+        }
+        /* footer section css end */
